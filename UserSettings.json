@@ -1,0 +1,73 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Cobalt2",
+    //  Added from Wes Bos
+    "editor.fontFamily": "Operator Mono Ssm, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+    "workbench.editor.tabSizing": "shrink",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.fontWeight": "400",
+    "eslint.options": {
+        "configFile": "file:///Volumes/Untitled/Users/coffeepostal/Dropbox/Apps/VS\ Code/eslintrc.json"
+    },
+    "prettier.eslintIntegration": true,
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // you'll need to change this to an absolute path on your computer
+    "vscode_custom_css.imports": [
+        "file:///Volumes/Untitled/Users/coffeepostal/Dropbox/Apps/VS\ Code/vscodestyles.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.next": true
+    },
+    "workbench.editor.tabCloseButton": "off",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    //  These are all my auto-save configs
+    "editor.formatOnSave": true,
+    //  turn it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false,
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "cSpell.userWords": [
+        "SIGNUP",
+        "Signin",
+        "Signout",
+        "TLDR",
+        "Templating",
+        "backend",
+        "camo",
+        "destructure",
+        "gmail",
+        "injectable",
+        "lightgrey",
+        "minmax",
+        "prefetch",
+        "promisify",
+        "refetch",
+        "adfarns",
+        "coffeepostal"
+    ],
+}
