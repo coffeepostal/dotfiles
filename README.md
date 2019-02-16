@@ -1,11 +1,11 @@
+# hyper.js Settings
+Added settings for Hyper. Again, mostly stolen from [Wes Bos](https://github.com/wesbos/dotfiles).
+
 # Visual Studio Code Settings
 These are my [Visual Studio Code](https://code.visualstudio.com) settings, most of which are stolen from [Wes Bos](https://github.com/wesbos/dotfiles).
 
 ### eslintrc.json
 These settings help Lint and Prettifier work nicely together by importing Prettifier through ESLint, instead of two separate plugins.
-
-### hyper.js
-Added settings for Hyper. Again, mostly stolen from [Wes Bos](https://github.com/wesbos/dotfiles).
 
 ### UserSettings.json
 A backup of my UserSettings.
