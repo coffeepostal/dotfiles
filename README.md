@@ -1,7 +1,12 @@
-# hyper.js Settings
+# dotfiles
+Settings files for dev apps: [Hyper.js](https://hyper.is/), [VS Code](https://code.visualstudio.com/)
+
+## hyper.js Settings
+
+### hyper.js
 Added settings for Hyper. Again, mostly stolen from [Wes Bos](https://github.com/wesbos/dotfiles).
 
-# Visual Studio Code Settings
+## Visual Studio Code Settings
 These are my [Visual Studio Code](https://code.visualstudio.com) settings, most of which are stolen from [Wes Bos](https://github.com/wesbos/dotfiles).
 
 ### eslintrc.json
