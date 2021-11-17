@@ -1,214 +1,319 @@
 {
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Cobalt2",
-    //  Real World Vue Formatting Suggestions
-    "vetur.validation.template": false,
-    "vetur.completion.useScaffoldSnippets": false, //  Turned off in favor of sarah.drasner's snippets
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "scss",
-            "autoFix": true
-        },
-        {
-            "language": "json",
-            "autoFix": true
-        },
-        {
-            "language": "php",
-            "autoFix": true
-        }
-    ],
-    //  Added from Wes Bos
-    "editor.fontFamily": "Operator Mono Ssm, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 12,
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 20,
-    "editor.letterSpacing": 0.5,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    //following will be in italic
-                    "comment",
-                    "emphasis",
-                    "entity.name.method.js",
-                    "entity.name.class.js",
-                    "entity.name.tag.doctype",
-                    "entity.other.attribute-name",
-                    "entity.other.attribute-name.tag.jade",
-                    "entity.other.attribute-name.tag.pug",
-                    "keyword",
-                    "keyword.control",
-                    "keyword.operator.comparison",
-                    "keyword.control.flow.js",
-                    "keyword.control.flow.ts",
-                    "keyword.control.flow.tsx",
-                    "keyword.control.ruby",
-                    "keyword.control.module.ruby",
-                    "keyword.control.class.ruby",
-                    "keyword.control.def.ruby",
-                    "keyword.control.loop.js",
-                    "keyword.control.loop.ts",
-                    "keyword.control.import.js",
-                    "keyword.control.import.ts",
-                    "keyword.control.import.tsx",
-                    "keyword.control.from.js",
-                    "keyword.control.from.ts",
-                    "keyword.control.from.tsx",
-                    "keyword.operator.expression.delete",
-                    "keyword.operator.new",
-                    "keyword.operator.expression",
-                    "keyword.operator.cast",
-                    "keyword.operator.relational",
-                    "keyword.operator.sizeof",
-                    "keyword.operator.logical.python",
-                    "italic",
-                    "markup.italic",
-                    "markup.quote",
-                    "markup.changed",
-                    "markup.italic.markdown",
-                    "markup.quote.markdown",
-                    "markup.deleted.diff",
-                    "markup.inserted.diff",
-                    "meta.delimiter.period",
-                    "meta.diff.header.git",
-                    "meta.diff.header.from-file",
-                    "meta.diff.header.to-file",
-                    "meta.tag.sgml.doctype",
-                    "meta.var.expr",
-                    "meta.class meta.method.declaration meta.var.expr storage.type.js",
-                    "meta.decorator punctuation.decorator",
-                    "meta.selector",
-                    "punctuation.accessor",
-                    "punctuation.definition.comment",
-                    "punctuation.definition.template-expression.begin",
-                    "punctuation.definition.template-expression.end",
-                    "punctuation.section.embedded",
-                    "quote",
-                    "source.js constant.other.object.key.js string.unquoted.label.js",
-                    "source.go keyword.package.go",
-                    "source.go keyword.import.go",
-                    "source.go keyword.function.go",
-                    "source.go keyword.type.go",
-                    "source.go keyword.struct.go",
-                    "source.go keyword.interface.go",
-                    "source.go keyword.const.go",
-                    "source.go keyword.var.go",
-                    "source.go keyword.map.go",
-                    "source.go keyword.channel.go",
-                    "source.go keyword.control.go",
-                    "storage",
-                    "storage.type",
-                    "storage.modifier",
-                    "storage.type.property.js",
-                    "storage.type.property.ts",
-                    "storage.type.property.tsx",
-                    "tag.decorator.js entity.name.tag.js",
-                    "tag.decorator.js",
-                    "text.html.basic entity.other.attribute-name.html",
-                    "text.html.basic entity.other.attribute-name",
-                    "variable.language",
-                    "variable.other.object.property"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "workbench.editor.tabSizing": "shrink",
-    "html.format.enable": true,
-    "html.format.preserveNewLines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 60000,
-    "editor.wordWrap": "on",
-    "editor.fontWeight": "400",
-    "eslint.options": {
-        "configFile": "file:///Volumes/Macintosh\ HD/Users/coffeepostal/Dropbox/Apps/VS\ Code/eslintrc.json"
-    },
-    "prettier.eslintIntegration": true,
-    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-    // you'll need to change this to an absolute path on your computer
-    "vscode_custom_css.imports": [
-        "file:///Volumes/Macintosh\ HD/Users/coffeepostal/Dropbox/Apps/VS\ Code/vscodestyles.css"
-    ],
-    "vscode_custom_css.policy": true,
-    "editor.renderWhitespace": "none",
-    "editor.rulers": [
-        80,
-        100
-    ],
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/.next": true
-    },
-    "workbench.editor.tabCloseButton": "off",
-    "emmet.includeLanguages": {
-        "html": "html",
-        "javascript": "javascriptreact"
-    },
-    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-    //  These are all my auto-save configs
-    "editor.formatOnSave": true,
-    //  turn it off for JS
-    "[javascript]": {
-        "editor.formatOnSave": false,
-    },
-    "[php]": {
-        "editor.formatOnSave": true
-    },
-    "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
-    "cSpell.userWords": [
-        "SIGNUP",
-        "Signin",
-        "Signout",
-        "TLDR",
-        "Templating",
-        "backend",
-        "camo",
-        "destructure",
-        "gmail",
-        "injectable",
-        "lightgrey",
-        "minmax",
-        "prefetch",
-        "promisify",
-        "refetch",
-        "adfarns",
-        "coffeepostal"
-    ],
-    //  Live Server Settings
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/dist/css"
-        }
-    ],
-    "liveSassCompile.settings.generateMap": false,
-    //  HTML CSS Support Settings
-    "css.remoteStyleSheets": [
-        "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css", //  Vuetify
-    ],
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": false,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Cobalt2",
+	//  Real World Vue Formatting Suggestions
+	"vetur.validation.template": false,
+	"vetur.completion.useScaffoldSnippets": false, //  Turned off in favor of sarah.drasner's snippets
+	"eslint.validate": [
+		{
+			"language": "vue",
+			"autoFix": true
+		},
+		{
+			"language": "html",
+			"autoFix": true
+		},
+		{
+			"language": "javascript",
+			"autoFix": true
+		},
+		{
+			"language": "scss",
+			"autoFix": true
+		},
+		{
+			"language": "json",
+			"autoFix": true
+		},
+		{
+			"language": "php",
+			"autoFix": true
+		}
+	],
+	//  Added from Wes Bos
+	// The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
+	"editor.fontFamily": "Cascadia Code PL, Operator Mono, Dank Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 21,
+	"editor.letterSpacing": 0.5,
+	"files.trimTrailingWhitespace": true,
+
+	"editor.fontWeight": "300",
+	"prettier.eslintIntegration": true,
+
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					//following will be in italic
+					"comment",
+					"emphasis",
+					"entity.name.method.js",
+					"entity.name.class.js",
+					"entity.name.tag.doctype",
+					"entity.other.attribute-name",
+					"entity.other.attribute-name.tag.jade",
+					"entity.other.attribute-name.tag.pug",
+					"keyword",
+					"keyword.control",
+					"keyword.operator.comparison",
+					"keyword.control.flow.js",
+					"keyword.control.flow.ts",
+					"keyword.control.flow.tsx",
+					"keyword.control.ruby",
+					"keyword.control.module.ruby",
+					"keyword.control.class.ruby",
+					"keyword.control.def.ruby",
+					"keyword.control.loop.js",
+					"keyword.control.loop.ts",
+					"keyword.control.import.js",
+					"keyword.control.import.ts",
+					"keyword.control.import.tsx",
+					"keyword.control.from.js",
+					"keyword.control.from.ts",
+					"keyword.control.from.tsx",
+					"keyword.operator.expression.delete",
+					"keyword.operator.new",
+					"keyword.operator.expression",
+					"keyword.operator.cast",
+					"keyword.operator.relational",
+					"keyword.operator.sizeof",
+					"keyword.operator.logical.python",
+					"italic",
+					"markup.italic",
+					"markup.quote",
+					"markup.changed",
+					"markup.italic.markdown",
+					"markup.quote.markdown",
+					"markup.deleted.diff",
+					"markup.inserted.diff",
+					"meta.delimiter.period",
+					"meta.diff.header.git",
+					"meta.diff.header.from-file",
+					"meta.diff.header.to-file",
+					"meta.tag.sgml.doctype",
+					"meta.var.expr",
+					"meta.class meta.method.declaration meta.var.expr storage.type.js",
+					"meta.decorator punctuation.decorator",
+					"meta.selector",
+					"punctuation.accessor",
+					"punctuation.definition.comment",
+					"punctuation.definition.template-expression.begin",
+					"punctuation.definition.template-expression.end",
+					"punctuation.section.embedded",
+					"quote",
+					"source.js constant.other.object.key.js string.unquoted.label.js",
+					"source.go keyword.package.go",
+					"source.go keyword.import.go",
+					"source.go keyword.function.go",
+					"source.go keyword.type.go",
+					"source.go keyword.struct.go",
+					"source.go keyword.interface.go",
+					"source.go keyword.const.go",
+					"source.go keyword.var.go",
+					"source.go keyword.map.go",
+					"source.go keyword.channel.go",
+					"source.go keyword.control.go",
+					"storage",
+					"storage.type",
+					"storage.modifier",
+					"storage.type.property.js",
+					"storage.type.property.ts",
+					"storage.type.property.tsx",
+					"tag.decorator.js entity.name.tag.js",
+					"tag.decorator.js",
+					"text.html.basic entity.other.attribute-name.html",
+					"text.html.basic entity.other.attribute-name",
+					"variable.language",
+					"variable.other.object.property"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+	"workbench.editor.tabSizing": "shrink",
+	"html.format.enable": true,
+	"html.format.preserveNewLines": true,
+	"html.format.wrapAttributes": "force-aligned",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 60000,
+	"editor.wordWrap": "on",
+	"eslint.options": {
+		"configFile": "file:///Volumes/Macintosh HD/Users/coffeepostal/Code/vscode/dotfiles/eslintrc.json"
+	},
+	// Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+	// you'll need to change this to an absolute path on your computer
+	"vscode_custom_css.imports": [
+		"file:///Volumes/Macintosh HD/Users/coffeepostal/Dropbox/Apps/VS Code/vscodestyles.css"
+	],
+	"vscode_custom_css.policy": true,
+	"editor.renderWhitespace": "none",
+	"editor.rulers": [80, 100],
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/.next": true
+	},
+	"workbench.editor.tabCloseButton": "off",
+	"emmet.includeLanguages": {
+		"html": "html",
+		"javascript": "javascriptreact"
+	},
+	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+	//  Change external terminal app to Hyper
+	"terminal.external.osxExec": "Hyper.app",
+	// These are all my auto-save configs
+	"editor.formatOnSave": true,
+	// turn it off for JS and JSX, we will do this via eslint
+	"[javascript]": {
+		"editor.formatOnSave": false,
+		"editor.autoClosingBrackets": "always"
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"[php]": {
+		"editor.formatOnSave": true
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// show eslint icon at bottom toolbar
+	"eslint.alwaysShowStatus": true,
+	// tell the ESLint plugin to run on save
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"cSpell.userWords": [
+		"adfarns",
+		"backend",
+		"camo",
+		"coffeepostal",
+		"destructure",
+		"Farns",
+		"farnsco",
+		"Farnsworth",
+		"gmail",
+		"injectable",
+		"lightgrey",
+		"minmax",
+		"prefetch",
+		"promisify",
+		"refetch",
+		"Signin",
+		"Signout",
+		"SIGNUP",
+		"Templating",
+		"TLDR",
+		"unstyled",
+		"Witton"
+	],
+	"editor.formatOnType": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"yaml.schemas": {
+		"file:///Users/coffeepostal/.vscode/extensions/atlassian.atlascode-2.8.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"indentRainbow.excludedLanguages": ["plaintext"],
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"vsicons.dontShowNewVersionMessage": true,
+	//todo-tree settings
+
+	// "todo-tree.highlights.defaultHighlight": {
+	// 	"foreground": "#193549",
+	// 	"background": "#FFC600",
+	// 	"icon": "check",
+	// 	"rulerColour": "yellow",
+	// 	"type": "tag",
+	// 	"iconColour": "yellow"
+	// },
+
+	// "todo-tree.highlights.defaultHighlight": {
+	// 	"icon": "alert",
+	// 	"type": "text-and-comment",
+	// 	"foreground": "black",
+	// 	"background": "white",
+	// 	"opacity": 100,
+	// 	"iconColour": "blue",
+	// 	"gutterIcon": true
+	// },
+	// "todo-tree.highlights.customHighlight": {
+	// 	"TODO": {
+	// 		"icon": "pencil",
+	// 		"foreground": "#222222",
+	// 		"background": "#EEEEEE",
+	// 		"iconColour": "#EEEEEE"
+	// 	},
+	// 	"NOTE": {
+	// 		"icon": "note",
+	// 		"foreground": "#0050a4",
+	// 		"background": "#EEEEEE",
+	// 		"iconColour": "#0050a4"
+	// 	},
+	// 	"COMMENT": {
+	// 		"icon": "comment",
+	// 		"foreground": "#FFA5F3",
+	// 		"background": "#0050a4",
+	// 		"iconColour": "#FFA5F3"
+	// 	},
+	// 	"FIXME": {
+	// 		"foreground": "#193549",
+	// 		"background": "#FFC600",
+	// 		"iconColour": "#FFC600"
+	// 	},
+	// 	"BUG": {
+	// 		"foreground": "white",
+	// 		"background": "#cc2222",
+	// 		"iconColour": "#cc2222"
+	// 	},
+	// 	"[ ]": {
+	// 		"icon": "check-circle",
+	// 		"foreground": "#222222",
+	// 		"background": "#EEEEEE",
+	// 		"iconColour": "#EEEEEE"
+	// 	},
+	// 	"[x]": {
+	// 		"icon": "check-circle-fill",
+	// 		"foreground": "#555555",
+	// 		"background": "#bbbbbb",
+	// 		"iconColour": "#EEEEEE"
+	// 	}
+	// },
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"NOTE",
+		"COMMENT",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+	"editor.inlineSuggest.enabled": true,
+	"prettier.tabWidth": 4,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"redhat.telemetry.enabled": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.CustomBrowser": "chrome",
+	"svelte.enable-ts-plugin": true
 }
