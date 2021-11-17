@@ -1,14 +1,6 @@
 # vs-code-extensions.md
 These are the [Visual Studio Code](https://code.visualstudio.com) extensions that I'm using, currently:
 
-
-Name: Better Comments
-Id: aaron-bond.better-comments
-Description: Improve your code commenting by annotating with alert, informational, TODOs, and more!
-Version: 2.1.0
-Publisher: Aaron Bond
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
-
 * [Abracadabra, refactor this!](https://marketplace.visualstudio.com/items?itemName=abracadabra)
 * [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=advanced-new-file)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=auto-rename-tag)
